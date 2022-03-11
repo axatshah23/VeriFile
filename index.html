@@ -1,34 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
+<html lang="en">
+<meta charset="UTF-8">
   <title>VeriFile</title>
   <link rel="icon" type="image/png" href="./img/results.png">
   <link rel="stylesheet" href="./style.css">
-  <link rel='stylesheet' href='https://unpkg.com/izitoast/dist/css/iziToast.min.css'>
-  
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:100' rel='stylesheet' type='text/css'>
+    <body>
+    <div class="center">
+        
+        <p class="head">Welcome to VeriFile!</p>
+        <p class="data">VeriFile is a software application for issuing and verifying tamper-proof digital documents. It uses a patent-filed, blockchain-based system that makes it free from any kind of central failure, security lapses, and budget-constraints. Documents issued by VeriFile can be verified from anywhere around the world, in just a matter of seconds.</p>
+    
+        <button class="blue-btn btn" onclick="sendToDashboard()">Verifier</button>
+        <button class="blue-btn btn" onclick="sendToLogin()">Issuer</button>
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<!DOCTYPE html>
-<html lang="es" dir="ltr">
-  <head>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="main.css"><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="main">
-      <div class="container a-container" id="a-container">
-        <form class="form" id="a-form" method="" action="">
-          <h2 class="form_title title">Welcome to VeriFile!</h2>
-          <p class="switch__description description">VeriFile is an online Marksheet Verification Tool that uses Blockchain to verify Marksheets. Organizations can register with VeriFile to issue verified Marksheets which then can be distributed to respective persons. Once issued anyone can verify the credibility of the certificates or marksheet.</p>
-          <button class="form__button button submit" onclick="sendToDashboard()">VERIFIER</button>
-          <button class="form__button button2 submit" onclick="sendToLogin()">ISSUER</button>
-        </form>
-      </div>
-      
+
     </div>
     <script>
         function sendToLogin() {
@@ -39,24 +25,5 @@
             location.href = "dashboard/dashboard.html";
         }
         </script>
-    <script src="main.js"></script>
-  </body>
-</html>
-<!-- partial -->
-<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
-
-<!-- Our script must be loaded after firebase references -->
-<script src="index.js"></script>
-<script  src="./script.js"></script>
-
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
-<script src='https://unpkg.com/izitoast/dist/js/iziToast.min.js'></script>
-
-</body>
+    </body>
 </html>
