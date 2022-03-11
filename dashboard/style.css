@@ -1,7 +1,5 @@
 /* Top Navigation Bar */
-.navbar {
-  background-color: #4B70E2;
-}
+
 .navbar a {
   font: bold 22px "Josefin Sans";
   color: #fff;
@@ -16,3 +14,75 @@
   border-radius: 0;
 }
 /* End Of Top Navigation Bar */
+
+/*Button*/
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 225px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.head {
+  font-size: 25px;
+  font-weight: 200;
+  color: #fff;
+}
+
+.blue-btn:hover,
+.blue-btn:active,
+.blue-btn:focus,
+.blue-btn {
+  background: transparent;
+  border: solid 1px #fff;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 20px;
+  outline: none !important;
+  padding: 10px 20px;
+}
+
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+  height: 43px;
+  margin-top: 0;
+}
+
+.fileUpload input.uploadlogo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  width: 100%;
+  height: 42px;
+}
+
+/*Chrome fix*/
+input::-webkit-file-upload-button {
+  cursor: pointer !important;
+  height: 42px;
+  width: 100%;
+}
+
+/*End of Button*/
