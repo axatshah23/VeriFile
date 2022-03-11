@@ -24,7 +24,7 @@
         <form class="form" id="a-form" method="" action="">
           <h2 class="form_title title">Welcome to VeriFile!</h2>
           <p class="switch__description description">VeriFile is an online Marksheet Verification Tool that uses Blockchain to verify Marksheets. Organizations can register with VeriFile to issue verified Marksheets which then can be distributed to respective persons. Once issued anyone can verify the credibility of the certificates or marksheet.</p>
-          <button class="form__button button submit" onclick="">VERIFIER</button>
+          <button class="form__button button submit" onclick="sendToDashboard()">VERIFIER</button>
           <button class="form__button button2 submit" onclick="sendToLogin()">ISSUER</button>
         </form>
       </div>
@@ -33,6 +33,10 @@
     <script>
         function sendToLogin() {
             location.href = "login_signup/loginAndSignUp.html";
+        }
+
+        function sendToDashboard() {
+            location.href = "dashboard/dashboard.html";
         }
         </script>
     <script src="main.js"></script>

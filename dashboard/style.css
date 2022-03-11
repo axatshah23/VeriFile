@@ -1,0 +1,18 @@
+/* Top Navigation Bar */
+.navbar {
+  background-color: #4B70E2;
+}
+.navbar a {
+  font: bold 22px "Josefin Sans";
+  color: #fff;
+}
+.navbar li a:hover, a:active {
+  line-height: 17px;
+  background-color: transparent;
+  border-bottom: 1px dotted #ccc;
+}
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+  border-radius: 0;
+}
+/* End Of Top Navigation Bar */
