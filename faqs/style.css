@@ -1,0 +1,126 @@
+.navbar a {
+    font: bold 28px "Josefin Sans";
+    color: #fff;
+  }
+  .navbar li a:hover, a:active {
+    line-height: 17px;
+    background-color: transparent;
+    border-bottom: 1px dotted #fff;
+  }
+  .navbar-toggle .icon-bar {
+    background-color: #fff;
+    border-radius: 0;
+  }
+
+/*.head {
+    font: bold 30px "Josefin Sans";
+    text-align: center;
+    line-height: 1.2;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}*/
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    color: #fff;
+    
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.collapsible {
+    background: transparent;
+    font: bold 24px "Josefin Sans";
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: white;
+    margin-left: 225px;
+    cursor: pointer;
+    width: 70%;
+    text-align: left;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    font: 550 19px "Josefin Sans"; 
+    margin-left: 230px;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    width: 70%;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .qnas{
+      margin-top: 50px;
+      padding-bottom: 50px;
+  }
+
+  .center {
+    text-align: center;
+    line-height: 1.2;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.blue-btn:active,
+.blue-btn:focus,
+.blue-btn {
+  
+  width: 120px;
+  background: transparent;
+  border: solid 1px #fff;
+  border-radius: 3px;
+  color: #fff;
+  font: bold 20px "Josefin Sans";
+  margin-bottom: 20px;
+  outline: none !important;
+  padding: 10px 20px;
+}
+
+.blue-btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.middle{
+  margin: 50px;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+  

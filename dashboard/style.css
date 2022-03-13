@@ -39,7 +39,8 @@ body {
 }
 
 .head {
-  font: bold 24px "Josefin Sans";
+  text-align: center;
+  font: bold 30px "Josefin Sans";
 }
 
 .blue-btn:active,
@@ -49,11 +50,26 @@ body {
   border: solid 1px #fff;
   border-radius: 3px;
   color: #fff;
-  font: bold 22px "Josefin Sans";
-  margin-bottom: 20px;
+  font: bold 20px "Josefin Sans";
+  margin-bottom: 15px;
   outline: none !important;
   padding: 10px 20px;
 }
+
+.blue-btn2:active,
+.blue-btn2:focus,
+.blue-btn2 {
+  width: 149px;
+  background: transparent;
+  border: solid 1px #fff;
+  border-radius: 3px;
+  color: #fff;
+  font: bold 20px "Josefin Sans";
+  margin-bottom: 10px;
+  outline: none !important;
+  padding: 10px 20px;
+}
+
 
 .fileUpload {
   position: relative;
